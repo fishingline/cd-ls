@@ -1,6 +1,17 @@
 # fish-cd-ls
 
-Fish plugin to `ls` after `cd`-ing into a directory.
+Fish plugin to `ls` a directory everytime you `cd` into it.
+
+## Configuration
+
+You can temporarily turn off this functionality by setting `$LS_AFTER_CD` to
+false.
+
+```fish
+set -U LS_AFTER_CD false
+```
+
+## Installation
 
 Fisher:
 
