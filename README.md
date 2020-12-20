@@ -4,18 +4,25 @@ Fish plugin to `ls` a directory everytime you `cd` into it.
 
 ## Configuration
 
-You can temporarily turn off this functionality by setting `$LS_AFTER_CD` to
-false.
+You can turn off this functionality temporarily by setting `$LS_AFTER_CD` to false.
 
 ```fish
 set LS_AFTER_CD false
 ```
 
-## Installation
+## Install
 
-Fisher:
+[reel] installation:
 
 ```shell
-# fisher installation
-fisher add fishingline/cd-ls
+reel in mattmc3/cd-ls.fish
 ```
+
+[fisher] installation:
+
+```shell
+fisher add mattmc3/cd-ls.fish
+```
+
+[reel]: https://github.com/mattmc3/reel
+[fisher]: https://github.com/jorgebucaran/fisher
